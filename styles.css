@@ -173,7 +173,7 @@ input {
   box-shadow: 12px 12px 12px 12px rgb(219, 234, 238);
 }
 .grid {
-  border: 2px solid orangered;
+  /* border: 2px solid orangered; */
 }
 /* gride two container */
 .grid_container_two {
@@ -185,7 +185,7 @@ input {
 
 .four {
   grid-row: 1 / span 2;
-  background-color: rgb(33, 95, 5);
+  background-color: rgb(185, 212, 230);
   height: 315px;
   box-shadow: 12px 12px 12px 12px rgb(228, 235, 236);
 }
@@ -202,7 +202,7 @@ input {
 }
 .grid2,
 .grid {
-  border: 2px solid rgb(255, 0, 149);
+  /* border: 2px solid rgb(255, 0, 149); */
   border-radius: 15px;
 }
 /* SECTION DIVIDER */
@@ -305,7 +305,22 @@ input {
   display: inline;
   font: 14px;
 }
-
+.stat_image{
+  width: 50px;
+}
+.stat_image>img{
+  width: 100%;
+}
+.flex_stat{
+  display: flex;
+  gap: 40px;
+}
+.stat_image2_div{
+  width: 50px;
+}
+.stat_image2_div>img{
+  width: 100%;
+}
 /* SECTION FOUR2 */
 .section_four2 {
   margin-left: 20%;

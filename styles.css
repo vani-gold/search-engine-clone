@@ -106,10 +106,6 @@ input {
   width: 25px;
   height: 25px;
 }
-.nav_inner_flex{
-  display: flex;
-  gap:30px;
-}
 /* SECTION ONE */
 .section_one {
   margin-left: 11%;
@@ -674,7 +670,7 @@ h3, h2{
   height: 90%;
   font-size: 14px;
   border-radius: 20px;
-/* border: transparent; */
+border: transparent;
 }
 /* SECTION TWELVE */
 
